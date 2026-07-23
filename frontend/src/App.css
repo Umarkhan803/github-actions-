@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.increase-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.decrease-button {
+  display: flex;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+
+}
